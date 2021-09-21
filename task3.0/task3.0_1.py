@@ -1,0 +1,5 @@
+words = input('Please enter any words with a space: ')
+words = words.split(' ')
+print(words)
+sorted_words = sorted(words, key=len)
+print(sorted_words)
